@@ -9,3 +9,7 @@
 {
     background-color: grey;
 }
+table,tr,td
+  {
+    border-spacing:0cm;
+  }
