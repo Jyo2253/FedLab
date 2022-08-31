@@ -11,5 +11,7 @@
 }
 table,tr,td
   {
-    border-spacing:0cm;
+     border-spacing:0cm;
+    padding: 0%;
+    border: 1px lightgray;
   }
