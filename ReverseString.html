@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<center>
+    <p>Welcome To My Domain</p>
+<button onclick="ReverseString()">Please Click it</button>
+<script>
+function ReverseString() 
+    {
+    str=prompt("Enter a string to reverse");
+    if(!str || str.length < 2 ||
+            typeof str!== 'string') {
+        document.write('Not valid');
+    }
+    const revArray = [];
+    const length = str.length - 1;
+    for(let i = length; i >= 0; i--) {
+        revArray.push(str[i]);
+    }
+    document.write(revArray.join(''));
+    }
+</script>
+</center>
+</body>
+</html>
